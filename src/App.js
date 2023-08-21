@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import resume from './Ian_McGahren_Resume.pdf'
 function App() {
   return (
@@ -29,12 +29,13 @@ function App() {
   );
 }
 
+
 export default App;
 
 
 // extras
 
-{/* 
+{/*  potential other links
 <li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
 <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li> 
 <span className="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
