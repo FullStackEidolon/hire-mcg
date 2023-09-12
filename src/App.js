@@ -1,5 +1,5 @@
 
-import resume from './Ian_McGahren_Resume.pdf'
+//import resume from '../public/Ian_McGahren_Resume.pdf'
 function App() {
   return (
     <div id="wrapper">
@@ -14,7 +14,7 @@ function App() {
 						<nav>
 							<ul>
 								<li><a href="https://github.com/FullStackEidolon" className="icon brands fa-github"><span className="label">Github</span></a></li>
-								<li><a href={resume} className="icon solid fa-file-alt" download><span className="label" >Dribbble</span></a></li>
+								<li><a href="/Ian_McGahren_Resume.pdf" download="Ian_McGahren_Resume.pdf" className="icon solid fa-file-alt"><span className="label" >Dribbble</span></a></li>
 								<li><a href="mailto:mcgahreni@gmail.com" className="icon solid fa-envelope"><span className="label">Email</span></a></li>
 							</ul>
 						</nav>
